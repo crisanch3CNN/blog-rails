@@ -6,6 +6,10 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+gem install rails
+rbenv rehash
+rails -v
+rails new blog
 
 * System dependencies
 
