@@ -11,6 +11,13 @@ rbenv rehash
 rails -v
 rails new blog
 
+bundle install
+bundle exec rails s
+rails routes
+bin/rails g model Comment commenter:string body:text article:references
+rails db:migrate
+
+
 * System dependencies
 
 * Configuration
